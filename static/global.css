@@ -1,0 +1,91 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap');
+
+/* MEYER RESET 2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CUSTOM CSS */
+*, html {
+    font-family: 'Krona One', sans-serif;
+	color: #3D3D3D;
+	margin: 0 auto;
+}
+
+.button-33 {
+	background-color: #FFC300;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 1.5rem;
+	border-radius: 100px;
+	/* box-shadow: rgba(119, 162, 207, .2) 0 -25px 18px -14px inset,rgba(119, 162, 207, .15) 0 1px 2px,rgba(119, 162, 207, .15) 0 2px 4px,rgba(119, 162, 207, .15) 0 4px 8px,rgba(119, 162, 207, .15) 0 8px 16px,rgba(119, 162, 207, .15) 0 16px 32px; */
+	color: #3d3d3d;
+	cursor: pointer;
+	display: inline-block;
+	padding: 1rem 3.5rem;
+	text-align: center;
+	text-decoration: none;
+	transition: all 250ms;
+	border: 0;
+	font-size: 16px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	overflow-x: hidden;
+	max-width: 250px;
+}
+
+.button-33:hover {
+	box-shadow: rgba(24,46,69,.35) 0 -25px 18px -14px inset,rgba(24,46,69,.25) 0 1px 2px,rgba(24,46,69,.25) 0 2px 4px,rgba(24,46,69,.25) 0 4px 8px,rgba(24,46,69,.25) 0 8px 16px,rgba(24,46,69,.25) 0 16px 32px;
+	transform: scale(1.05);
+}
+
+.button-33:active {
+	background-color: #f3f4f6;
+	box-shadow: rgba(24,46,69,.35) 0 -25px 18px -14px inset,rgba(24,46,69,.25) 0 1px 2px,rgba(24,46,69,.25) 0 2px 4px,rgba(24,46,69,.25) 0 4px 8px,rgba(24,46,69,.25) 0 8px 16px,rgba(24,46,69,.25) 0 16px 32px;
+	transform: translateY(0.125rem);
+	color: #FFC300;
+}
